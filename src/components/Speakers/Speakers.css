@@ -1,0 +1,83 @@
+.speaker_card {
+    border: 1px solid #474747;
+    width: 60%;
+}
+
+.speakers_card_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+}
+
+.speaker_card {
+    display: flex;
+    padding: 2%;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: center;
+    border-radius: 80px;
+}
+
+.speaker_card_left {
+    width: 48%;
+    min-width: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.speaker_card_left_container {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.speaker_card_right {
+    width: 48%;
+    min-width: 250px;
+    text-align: left;
+    border-left: 1px solid #474747;
+}
+
+.speaker_card_right_content {
+    padding: 5%;
+}
+
+.speaker_name_container {
+    padding: 30px;
+}
+
+.speakers_image {
+    width: 80%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.accomplishment_text {
+    font-family: 'Crimson';
+}
+
+.speaker_img {
+    width: 30%;
+    min-width: 100px;
+}
+
+.speaker_name {
+    font-family: 'Crimson', serif;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 830px) {
+    .speaker_card_right {
+        border-left: none;
+    }
+
+    .speaker_card {
+        border-radius: 40px;
+    }
+    
+}

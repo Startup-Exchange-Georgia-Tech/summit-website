@@ -1,0 +1,37 @@
+.FAQ_card {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 80%;
+}
+
+.FAQ_question {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #474747;
+}
+
+.FAQ_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FAQ_answer {
+    padding: 20px;
+    border: 1px solid #474747;
+}
+
+.expanded_arrow {
+    transform: rotate(180deg);
+}
+
+.FAQ {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.arrow {
+    cursor: pointer;
+}

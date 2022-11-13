@@ -1,0 +1,32 @@
+.footer {
+    padding: 2%;
+    border-top: 1px solid #474747;
+}
+
+.footer_content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 200px;
+}
+
+.footer_image {
+    min-width: 250px;
+    width: 10%;
+}
+
+.footer_list {
+    text-align: left;
+    width: 250px;
+}
+
+.footer_link {
+    margin-right: 20px;
+}
+
+.footer_link:hover {
+    color: #F2B111;
+    transition: 0.2s;
+}

@@ -48,19 +48,35 @@ a:visited {
 }
 
 @font-face {
-  font-family: 'Crimson';
+  font-family: 'Neue Haas Grotesk Display Pro';
+  src: url('./fonts/NeueHaasDisplay-Roman.woff2') format('woff2'),
+      url('./fonts/NeueHaasDisplay-Roman.woff') format('woff');
+  font-weight: 500;
   font-style: normal;
-  font-weight: normal;
-  src: url('./fonts/Crimson-Roman.otf') format('otf');
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'NeueHaasDisplay-Roman';
-  font-style: normal;
+  font-family: 'Neue Haas Grotesk Display Pro';
   src: url('./fonts/NeueHaasDisplay-Roman.woff2') format('woff2'),
-        url('./fonts/NeueHaasDisplay-Roman.woff') format('woff');
-  font-weight: normal;
+      url('./fonts/NeueHaasDisplay-Roman.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
+
+@font-face {
+  font-family: 'Crimson';
+  src: url('./fonts/Crimson-Roman.woff2') format('woff2'),
+      url('./fonts/Crimson-Roman.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
 
 @media screen and (max-width: 600px) {
   body {

@@ -7,6 +7,9 @@ import Speakers from "./components/Speakers/Speakers";
 import Partners from "./components/Partners/Partners";
 import FAQ from "./components/FAQ/FAQ";
 import Footer from "./components/Footer/Footer";
+import "./fonts/Crimson-Roman.otf";
+import "./fonts/NeueHaasDisplay-Roman.woff";
+import "./fonts/NeueHaasDisplay-Roman.woff2";
 
 function App() {
   return (

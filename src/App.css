@@ -51,14 +51,14 @@ a:visited {
   font-family: 'Crimson';
   font-style: normal;
   font-weight: normal;
-  src: url('../public/fonts/Crimson-Roman.otf') format('otf');
+  src: url('./fonts/Crimson-Roman.otf') format('otf');
 }
 
 @font-face {
   font-family: 'NeueHaasDisplay-Roman';
   font-style: normal;
-  src: url('../public/fonts/NeueHaasDisplay-Roman.woff2') format('woff2'),
-        url('../public/fonts/NeueHaasDisplay-Roman.woff') format('woff');
+  src: url('./fonts/NeueHaasDisplay-Roman.woff2') format('woff2'),
+        url('./fonts/NeueHaasDisplay-Roman.woff') format('woff');
   font-weight: normal;
 }
 

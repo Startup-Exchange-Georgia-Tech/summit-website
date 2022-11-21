@@ -78,6 +78,7 @@
 
     .speaker_card {
         border-radius: 40px;
+        width: 80%;
     }
     
 }
